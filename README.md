@@ -1,8 +1,1 @@
-<<<<<<< HEAD
-# ToxicBot
-
-=======
-# ToxicBot
-
-o
->>>>>>> 
+TOXIC Discord Bot
