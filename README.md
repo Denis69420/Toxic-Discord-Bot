@@ -1,8 +1,0 @@
-<<<<<<< HEAD
-# ToxicBot
-
-=======
-# ToxicBot
-
-o
->>>>>>> 
