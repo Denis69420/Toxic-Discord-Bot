@@ -1,5 +1,6 @@
 {
     "1171414784151916614": {
+        "language": "de",
         "leave_channel_id": "1171414784940462134",
         "welcome_channel_id": "1171414784940462132",
         "prohibited_words": [
@@ -7,6 +8,7 @@
         ],
         "roles": {
             "verified": "1171424251887243274"
-        }
+        },
+        "ticket_category_id": 1243274412766134373
     }
 }

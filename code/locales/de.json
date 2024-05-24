@@ -1,0 +1,20 @@
+{
+  "greetings": {
+    "welcome": "Willkommen auf dem Server, {user}!",
+    "goodbye": "{user} hat den Server verlassen."
+  },
+  "tickets": {
+    "title": "Ticket System",
+    "description": "Klicken Sie auf die Schaltfläche unten, um ein Ticket zu erstellen.",
+    "create_ticket": "Ticket erstellen",
+    "ticket_created": "{user}, dein Ticket wurde erstellt: {channel}",
+    "ticket_exists": "{user}, du hast bereits ein offenes Ticket: {channel}",
+    "close_ticket": "Ticket schließen",
+    "ticket_closed": "Ticket wird geschlossen...",
+    "category_set": "Ticketkategorie wurde auf {category_id} gesetzt."
+  },
+  "errors": {
+    "no_category": "Ticketkategorie nicht gefunden. Bitte kontaktiere einen Administrator.",
+    "no_category_id": "Ticketkategorie-ID für diesen Server nicht gesetzt. Bitte kontaktiere einen Administrator."
+  }
+}

@@ -1,8 +1,9 @@
 import os
 import asyncio
-from dotenv import load_dotenv
 import discord
 from discord.ext import commands
+from dotenv import load_dotenv
+from code.localization import Localization
 
 load_dotenv()
 token = os.getenv('DISCORD_TOKEN')
@@ -13,12 +14,16 @@ intents.guilds = True
 intents.members = True
 
 bot = commands.Bot(command_prefix='?', intents=intents)
+locales = Localization.load_locales('code/locales')
 
+# Load extensions
 async def load_extensions():
     await bot.load_extension('code.events')
     await bot.load_extension('code.admin_commands')
     await bot.load_extension('code.user_commands')
     await bot.load_extension('code.auto_moderator')
+    await bot.load_extension('code.language_commands')
+    await bot.load_extension('code.ticket_system')
 
 @bot.event
 async def on_ready():
